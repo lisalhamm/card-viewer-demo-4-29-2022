@@ -1,0 +1,16 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@highnoteplatform/card-viewer": [
+        "../packages/card-viewer/*"
+      ]
+    }
+  },
+  "references": [
+    {
+      "path": "../../packages/card-viewer"
+    }
+  ]
+}

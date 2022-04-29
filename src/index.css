@@ -1,0 +1,116 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-color: #e2e0d6;
+}
+
+.side-rail {
+  width: 400px;
+  padding: 30px;
+  margin: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+}
+
+.fakeCard {
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 16px;
+  padding: 30px;
+  width: 238px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.logo {
+  width: 2.5rem;
+  height: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.center {
+  align-items: center;
+  display: flex;
+}
+
+h1 {
+  /* font-family: Helvetica Now Display; */
+  font-size: 26px;
+  line-height: 36px;
+  font-weight: 400;
+  margin: 0;
+}
+
+label {
+  display: block;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+input {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 0.25rem;
+  border-width: 1px;
+  width: 100%;
+  display: block;
+}
+
+input:focus {
+  border-width: 2px;
+}
+
+button {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  font-size: 16px;
+  line-height: 18px;
+  margin-top: 1.25rem;
+  display: flex;
+  border-radius: 9999px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
+}
+
+button:hover {
+  background-color: #55f5a3;
+  color: #000;
+}
+
+.button-arrow-small {
+  margin-left: 25px;
+}
+
+.margin-top {
+  margin-top: 15px;
+}
+
+#fakeCardBottomRow {
+  display: flex;
+}
+
+#cvv iframe,
+#expirationDate iframe {
+  width: 100px;
+}
+
+/* #cardNumber {
+  margin-bottom: 4em;
+} */
+
+iframe {
+  height: 20px;
+}
